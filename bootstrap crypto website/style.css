@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+    color:darkblue;
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 16px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+  }
+  
+  .text-primary {
+    color: darkblue ;
+  }
+  .nav-link.active {
+    color: darkblue !important ;
+  }
+  
+  .nav-link:link,
+  .nav-link:visited {
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: all 0.3s linear;
+  }
+  
+  .nav-link:hover {
+    color: darkblue;
+    font-size: 30px;
+    word-spacing: 1.5;
+  }
+  
+  .primary-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+    letter-spacing: 1.1px;
+    color:darkviolet;
+    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .hero-img {
+    width: 80%;
+    object-fit: contain;
+    transition: all 1s linear;
+  }
+  .hero-img:hover{
+  transform: translateY(50px);
+  }
+  .hero-input {
+    padding: 20px;
+    background-color: transparent;
+    border: 4px solid lightskyblue;
+    outline: none;
+    margin-right: 10px;
+  }
+  .hero-input:focus {
+    box-shadow: 2px 2px 2px rgba(0, 255, 255, 0.27);
+    border: 2px solid slateblue;
+    background-color: lightcyan;
+  }
+  .btn-primary{
+    background-color: #00ffff;
+    color: darkred;
+    font-size: 18px;
+    padding: 10px;
+  } 
+  .btn-primary:hover {
+    background-color: snow;
+    color: darkred;
+    letter-spacing: 3px;
+    font-weight: 600;
+   box-shadow: 4px 4px 4px darkred;
+  }
+  .secondary-heading {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: darkgreen;
+  }
+  
+  .wallet-image {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .card {
+    border-radius: 24px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3);
+    padding: 10px!important;
+  }
+  
+  .card:hover {
+    transform: translateX(-10px);
+  }
+  
+  ul,
+  li {
+    padding: 3px;
+  }
+  
+  .check {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    transition: all 0.2s ease-in;
+    
+  }
+  .check:hover{
+    transform: scale(1.2);
+  }
+
+  .p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 769px) {
+    .secondary-heading {
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+  
+    .primary-heading {
+      font-size: 24px;
+      line-height: 1.4;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    .container {
+     padding: 10px !important;
+    }
+  
+    .hero-input {
+      padding: 20px;
+      background-color: transparent;
+      border: 2px solid #00ffff;
+      margin-right: 10px;
+      box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3);
+      display: block;
+      width: 90%;
+    }
+  }
+
+  .fa-brands,.fa-solid,.fa-regular{
+    font-size: 20px;
+    color: brown;
+  }
+  .fa-brands:hover,.fa-solid:hover,.fa-regular:hover{
+    color: maroon;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .name{
+    font-size: 35px;
+    color: darkred;
+    font-weight: bold;
+  }
+  .name:hover{
+    color: darkblue;
+    font-size: 50px !important;
+    transform: perspective(100px) skew(30deg);
+  }
+  h4,a{
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+  }
+  h4:hover{
+    border-bottom: 2px solid darkred;
+    /* width: 40%; */
+    text-align: center;
+  }
+  .position-relative{
+    box-shadow: 4px 4px 4px #123987;
+  }
+  .crypto-img{
+    width: 80%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+  }
+  .crypto-img:hover{
+    transform: perspective(800px) translate(60px) ;
+  }
+  p{
+    font-size: 14px;
+    color: darkviolet;
+  }
+  .row{
+    text-align: center;
+  }
